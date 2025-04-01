@@ -12,8 +12,8 @@ venv/                 # Another common virtual env name
 *.csv                 # Large datasets (e.g., training data)
 *.h5                  # HDF5 files (common for ML models like Keras/TensorFlow)
 *.pkl                 # Pickle files (serialized Python objects, often models)
-data/*                # Entire data folder (if it’s large or sensitive)
-models/*              # Folder with trained models (often too big for Git)
+                # Entire data folder (if it’s large or sensitive)
+              # Folder with trained models (often too big for Git)
 
 # Miscellaneous
 *.log                 # Log files generated during runs
