@@ -7,13 +7,14 @@ __pycache__/          # Compiled Python bytecode folders
 env/                  # Virtual environment folder (e.g., 'env')
 venv/                 # Another common virtual env name
 *.env                 # Files with environment variables (e.g., API keys)
+*.ipynb_checkpoints/
 
 # Large files or ML-specific ignores
 *.csv                 # Large datasets (e.g., training data)
 *.h5                  # HDF5 files (common for ML models like Keras/TensorFlow)
 *.pkl                 # Pickle files (serialized Python objects, often models)
-                # Entire data folder (if it’s large or sensitive)
-              # Folder with trained models (often too big for Git)
+data/*                # Entire data folder (if it’s large or sensitive)
+models/*              # Folder with trained models (often too big for Git)
 
 # Miscellaneous
 *.log                 # Log files generated during runs
