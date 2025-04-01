@@ -1,0 +1,21 @@
+# Python-specific ignores
+__pycache__/          # Compiled Python bytecode folders
+*.pyc                 # Individual bytecode files
+*.pyo                 # Optimized bytecode files
+*.pyd                 # Python dynamic modules (Windows)
+.Python               # Temporary Python env files
+env/                  # Virtual environment folder (e.g., 'env')
+venv/                 # Another common virtual env name
+*.env                 # Files with environment variables (e.g., API keys)
+
+# Large files or ML-specific ignores
+*.csv                 # Large datasets (e.g., training data)
+*.h5                  # HDF5 files (common for ML models like Keras/TensorFlow)
+*.pkl                 # Pickle files (serialized Python objects, often models)
+data/*                # Entire data folder (if it’s large or sensitive)
+models/*              # Folder with trained models (often too big for Git)
+
+# Miscellaneous
+*.log                 # Log files generated during runs
+*.DS_Store            # macOS system files
+*.ipynb_checkpoints/  # Jupyter Notebook checkpoints 
